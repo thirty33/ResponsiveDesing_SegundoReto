@@ -1,0 +1,30 @@
+img {
+	/*border: 10px solid gray; */
+	/*opacity: 1	;*/
+	transition: 1s;
+	opacity: 0;
+	/*mejorar disposicion de imagenes*/
+	object-fit: cover; 
+	width: 100%;
+}
+
+img.b-loaded {
+	opacity: 1;
+	
+}
+
+figcaption {
+	font-size: 18px;
+	font-family: Arial;
+	background: white;
+	padding: 15px 10px;
+	border-bottom: 5px solid lightgray;
+}
+
+figure {
+	background-image: url(../images/gears.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 700px;
+	margin: 0 auto;
+}
