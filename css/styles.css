@@ -1,27 +1,40 @@
 img {
 	/*border: 10px solid gray; */
 	/*opacity: 1	;*/
-	transition: 1s;
+	transition: .3s;
 	opacity: 0;
 	/*mejorar disposicion de imagenes*/
 	object-fit: cover; 
 	width: 100%;
+	
+	/*Efecto cargado*/
+
+	position:relative;
+	left:-40%;
+
 }
 
 img.b-loaded {
 	opacity: 1;
+
+	/*efecto cargado*/
+	left: 0;
 	
 }
 
 figcaption {
 	font-size: 18px;
 	font-family: Arial;
-	background: white;
+	background: whiSte;
 	padding: 15px 10px;
 	border-bottom: 5px solid lightgray;
 }
 
 figure {
+	/*efecto cargado*/
+	overflow:hidden;
+
+
 	background-image: url(../images/gears.gif);
 	background-repeat: no-repeat;
 	background-position: center;
